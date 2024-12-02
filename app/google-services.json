@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230172349375",
+    "project_id": "kebabgo-2f81a",
+    "storage_bucket": "kebabgo-2f81a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230172349375:android:650ba62b6b69c8761ec70a",
+        "android_client_info": {
+          "package_name": "com.example.miprimerloginconfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCadWdEAnxByzZbuPYKuO53wbO5772fP-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230172349375:android:d461a352fe69eb761ec70a",
+        "android_client_info": {
+          "package_name": "com.example.proyectoaplicacionfiestas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCadWdEAnxByzZbuPYKuO53wbO5772fP-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
