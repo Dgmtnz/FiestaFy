@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="primary">#8B0000</color>
+    <color name="primary_dark">#560000</color>
+    <color name="secondary">#B22222</color>
+    <color name="secondary_dark">#800000</color>
+    
+    <!-- Colores base -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bone_white">#EDEAE5</color>
+    
+    <!-- Colores de fondo y superficie -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F9F6F0</color>
+    <color name="error">#D32F2F</color>
+    
+    <!-- Colores de texto y elementos sobre fondos -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#1F1F1F</color>
+    <color name="on_surface">#1F1F1F</color>
+    <color name="on_error">#FFFFFF</color>
+</resources>

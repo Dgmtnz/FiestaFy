@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FiestaFy</string>
+    <string name="title_activity_home_main">FiestaFy</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_calendar">Calendario</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_payments">Pagos</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="maps_api_key">AIzaSyC0SVZGDiJYFxdkt6jerbhsbp_jrJ1VEa0</string>
+</resources>

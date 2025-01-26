@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Perfil de Usuario -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/userProfileCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImageView"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/userNameText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/userEmailText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Opciones del menú -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Tablón de anuncios -->
+                <TextView
+                    android:id="@+id/announcementsBoardOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Tablón de anuncios"
+                    android:drawableStart="@drawable/ic_announcement"/>
+
+                <!-- Cuentas bancarias -->
+                <TextView
+                    android:id="@+id/bankAccountsOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Cuentas bancarias"
+                    android:drawableStart="@drawable/ic_bank"/>
+
+                <!-- Organigrama -->
+                <TextView
+                    android:id="@+id/organizationChartOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Organigrama"
+                    android:drawableStart="@drawable/ic_organization"/>
+
+                <!-- Recibos -->
+                <TextView
+                    android:id="@+id/receiptsOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Recibos"
+                    android:drawableStart="@drawable/ic_receipt"/>
+
+                <!-- Acerca de -->
+                <TextView
+                    android:id="@+id/aboutOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Acerca de la aplicación"
+                    android:drawableStart="@drawable/ic_info"/>
+
+                <!-- Cerrar sesión -->
+                <TextView
+                    android:id="@+id/logoutOption"
+                    style="@style/SettingsMenuOption"
+                    android:text="Cerrar sesión"
+                    android:textColor="@color/design_default_color_error"
+                    android:drawableStart="@drawable/ic_logout"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView> 
